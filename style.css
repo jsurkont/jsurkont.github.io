@@ -1,0 +1,41 @@
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 300;
+  margin-bottom: 2rem;
+}
+
+footer {
+  padding: 2rem 0;
+  color: white;
+  background-color: #3E3E3F;
+  font-size: 90%;
+}
+
+footer p:last-child {
+  margin-bottom: 0;
+}
+
+footer a, footer a:visited, footer a:hover, footer a:active {
+  color: white;
+}
+
+a {
+  color: #0b486b;
+}
+
+li {
+  margin-bottom: .25rem;
+}
+
+.jumbotron {
+  margin-bottom: 4rem;
+  color: white;
+  background: #0b486b;
+  background-image: -webkit-linear-gradient(315deg, #00314D, #0b486b, #0068A4);
+  background-image: -o-linear-gradient(315deg, #00314D, #0b486b, #0068A4);
+  background-image: linear-gradient(135deg, #00314D, #0b486b, #0068A4);
+}
+
+.list-unindented {
+  list-style-position: inside;
+  padding-left:0;
+}
