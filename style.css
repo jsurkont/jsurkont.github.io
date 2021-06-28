@@ -33,22 +33,29 @@ footer a, footer a:visited, footer a:hover, footer a:active {
 
 a {
   color: #0b486b;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 li {
   margin-bottom: .25rem;
 }
 
+.list-unindented {
+  list-style-position: inside;
+  padding-left:0;
+}
+
 .jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   margin-bottom: 4rem;
   color: white;
   background: #0b486b;
   background-image: -webkit-linear-gradient(315deg, #00314D, #0b486b, #0068A4);
   background-image: -o-linear-gradient(315deg, #00314D, #0b486b, #0068A4);
   background-image: linear-gradient(135deg, #00314D, #0b486b, #0068A4);
-}
-
-.list-unindented {
-  list-style-position: inside;
-  padding-left:0;
 }
