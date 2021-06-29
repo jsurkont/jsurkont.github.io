@@ -11,7 +11,6 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -31,34 +30,44 @@
   <div class="container mb-5">
     <div class="row">
       <div class="col-sm-8 col-lg-3 mb-4">
-        <img src="profile.png" alt="Jarosław Surkont - Profile picture" class="img-fluid rounded"
+        <img src="img/profile.png" alt="Jarosław Surkont - Profile picture" class="img-fluid rounded"
           style="width:200px;" />
       </div>
       <div class="col-sm-4 col-lg-3">
-        <ul class="fa-ul">
-          <li>
-            <a href="https://www.linkedin.com/in/jsurkont" target="_blank">
-              <i class="fa-li fa fa-linkedin"></i> LinkedIn
-            </a>
-          </li>
+        <ul class="list-unindented">
           <li>
             <a href="https://github.com/jsurkont" target="_blank">
-              <i class="fa-li fa fa-github"></i> GitHub
+              <svg class="icon-feather icon-text">
+                <use xlink:href="img/feather-sprite.svg#github" />
+              </svg> GitHub
             </a>
           </li>
           <li>
             <a href="https://gitlab.com/jsurkont" target="_blank">
-              <i class="fa-li fa fa-gitlab"></i> GitLab
+              <svg class="icon-feather icon-text">
+                <use xlink:href="img/feather-sprite.svg#gitlab" />
+              </svg> GitLab
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/jsurkont" target="_blank">
+              <svg class="icon-feather icon-text">
+                <use xlink:href="img/feather-sprite.svg#linkedin" />
+              </svg> LinkedIn
             </a>
           </li>
           <li>
             <a href="https://scholar.google.pt/citations?user=nNKtQ_EAAAAJ&hl=en" target="_blank">
-              <i class="fa-li fa fa-graduation-cap"></i> Google Scholar
+              <svg class="icon-other icon-text">
+                <use xlink:href="img/icon-sprite.svg#google-scholar"></use>
+              </svg> Google Scholar
             </a>
           </li>
           <li>
             <a href="http://orcid.org/0000-0001-9271-5529" target="_blank">
-              <i class="fa-li fa fa-graduation-cap"></i> ORCID
+              <svg class="icon-other icon-text">
+                <use xlink:href="img/icon-sprite.svg#orcid"></use>
+              </svg> ORCID
             </a>
           </li>
         </ul>
@@ -82,7 +91,11 @@
   <div class="container mb-5">
     <div class="row">
       <div class="col-lg mb-5">
-        <h4><i class="fa fa-book"></i> papers</h4>
+        <h4>
+          <svg class="icon-feather icon-header">
+            <use xlink:href="img/feather-sprite.svg#book-open" />
+          </svg> papers
+        </h4>
         <ol>
           <li>
             Ito D, Zitouni S, Jana SC, Duarte P, <em>Surkont J</em>, et al. (2019).
@@ -132,7 +145,11 @@
         </ol>
       </div>
       <div class="col-lg mb-4">
-        <h4><i class="fa fa-code"></i> projects</h4>
+        <h4>
+          <svg class="icon-feather icon-header">
+            <use xlink:href="img/feather-sprite.svg#git-branch" />
+          </svg> projects
+        </h4>
 
         <p style="border-bottom: solid 1px;">Security</p>
 
@@ -180,7 +197,8 @@
 
         <p>
           see more projects and other miscellaneous stuff (scripts, config files...)
-          on <a href="https://github.com/jsurkont?tab=repositories" target="_blank">github...</a>
+          on <a href="https://github.com/jsurkont?tab=repositories" target="_blank">GitHub<a>
+              and <a href="https://gitlab.com/users/jsurkont/contributed" target="_blank">GitLab...</a>
         </p>
       </div>
     </div>
@@ -188,11 +206,14 @@
 
   <footer>
     <div class="container text-center">
+      <p>2017-2021 Jarosław Surkont</p>
       <p>
-        <i class="fa fa-copyright"></i> 2017-2021 Jarosław Surkont
-      </p>
-      <p>
-        Hosted by <a href="https://github.com" target="_blank">GitHub</a>
+        Hosted by
+        <a href="https://github.com" target="_blank">
+          <svg class="icon-feather icon-text">
+            <use xlink:href="img/feather-sprite.svg#github" />
+          </svg>
+        </a>
       </p>
     </div>
   </footer>
